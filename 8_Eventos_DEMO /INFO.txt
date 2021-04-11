@@ -1,0 +1,9 @@
+el "ejercicio" trata de mostrar como trabajar con el DOM
+haciendo uso de las distintas propiedades que contienen los nodos
+ (tipo de nodo, id, clas, etc..)
+ 
++el ejercicio consta de:
+    
+    -un <div> en el HTML al que se le asigna un "id" y una "class".
+    -un CSS en el cual se le da estilo a los componentes del HTML.
+    -un archivo JS desde el cual manejaremos los componentes.

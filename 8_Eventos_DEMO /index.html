@@ -1,0 +1,51 @@
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Work with EVENTS</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+
+    <body>
+    
+        <h1>Utilizando Listeners</h1>
+    <!--Manejando EVENTOS con LISTENERS-->
+    <!--Creamos un Elemnto con un ID (class o nada) para poder localizarlo en el DOM-->
+    <button id="test1">Click para abrir Alert</button>
+    
+    <div id="test2">
+     <button id="test3">Pon y quita el Mouse</button>
+    </div>
+    
+    
+    <p></p>
+    <h1>Forma fea</h1>
+ <!---------------------------------------------------------------------------->   
+   <!--FORMA FEA- NO SE UTILIZA-->
+   
+       <!--  //Le aplicaremos el atributo para EVENTOS de HTML 
+       "on"+"evento" para que el elemento X (en nuestro caso el botón) 
+       responda al evento que se está controlando ejecute la "acción" 
+       que se le indica, que se encontrará en el archivo JS-->
+       
+        <!-- Al hacer 'Click' [onclick]-->   
+        <button onclick="clic()">Click para abrir Alert</button>
+
+        
+        <!-- Al pasar el Mouse por encima [onmouseover]-->
+        <button onmouseover="mouseOver()">Pasa por encima</button>
+        
+        <!-- Al Quitar el Mouse de encima [onmouseout]-->
+        <button onmouseout="mouseOut()">Pon y Quita el mouse</button>        
+        
+        
+        <script src="./WorkWithEvents.js"></script>
+        
+        
+        
+        
+        
+    </body>
+
+</html>
