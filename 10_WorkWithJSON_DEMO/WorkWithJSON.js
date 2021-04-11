@@ -44,8 +44,21 @@ document.write("</p>");
 
 //Creando un OBJETO, con atributos y funciones que utilizan sus atributos
 let objPersona= {
+    nombre:"Pepito",
+    apellidos:"Grillo",
+    edad:68,
+    nombre_completo: function (){return (this.nombre+" "+this.apellidos)},
+    verif_mayorEdad: function(){
+        if(this.edad>=18){return "Es mayor de edad."}else{return "No es mayor de edad";}
 
-
-
+    }
 };
+
+
+
+
+
+document.write("Nombre completo: "+objPersona.nombre_completo );
+document.write("</p>");
+document.write("Es mayor de edad?: "+objPersona.verif_mayorEdad() );
 
