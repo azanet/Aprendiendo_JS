@@ -30,10 +30,10 @@ function suma(d,e){
 }
 
 //Llamamos a la función con un solo parámetro
-document.write("Lamando funcion 'suma' SOLO con valor de 'c': "+suma(c)+"<br>");
+document.write("Llamando funcion 'suma' SOLO con valor de 'c': "+suma(c)+"<br>");
 
 //Llamamos a la función con sus 2 parámetros
-document.write("Lamando funcion 'suma' 2 valores, valor de 'c' y '3': "+suma(c,3)+"</p>");
+document.write("Llamando funcion 'suma' 2 valores, valor de 'c' y '3': "+suma(c,3)+"</p>");
 
 
 

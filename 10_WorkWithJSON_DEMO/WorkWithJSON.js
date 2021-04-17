@@ -57,8 +57,8 @@ let objPersona= {
 
 
 
-
-document.write("Nombre completo: "+objPersona.nombre_completo );
+document.write("Obteniendo información usando las funciones almacenadas en el objeto");
+document.write("Nombre completo: "+objPersona.nombre_completo() );
 document.write("</p>");
 document.write("Es mayor de edad?: "+objPersona.verif_mayorEdad() );
 
