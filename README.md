@@ -11,3 +11,4 @@
         <a href="./9_Funciones_DEMO">9_Funciones_DEMO </a> <br>
         <a href="./10_WorkWithJSON_DEMO">10_WorkWithJSON_DEMO </a> <br>
         <a href="./11_DeclarandoObjetosUtilizandoFunciones_DEMO">11_DeclarandoObjetosUtilizandoFunciones_DEMO </a> <br>
+        <a href="./12_Prototype_DEMO">12_ManejandoPrototype_DEMO </a> <br>
